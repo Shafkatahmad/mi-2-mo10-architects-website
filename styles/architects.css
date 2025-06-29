@@ -108,6 +108,7 @@ main > section {
 .fact-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  border: 1px solid yellow;
 }
 .fact-card {
   border: 1px solid rgba(255, 144, 14, 1);
@@ -139,8 +140,12 @@ main > section {
   .navbar, .nav-links, .teams {
     flex-direction: column;
   }
-  .teams-img-container {
-    grid-template-columns: repeat(1, 1fr);
+  .teams-img-container, .fact-container {
+    grid-template-columns: 1fr;
+  }
+  .fact-container {
+    justify-items: center;
+    gap: 24px;
   }
   .our-features {
     margin-left: 10px;
