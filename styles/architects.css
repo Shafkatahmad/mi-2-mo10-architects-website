@@ -5,7 +5,6 @@ body {
   font-weight: 400;
   font-style: normal;
   margin: 0;
-  border: 1px solid red;
 }
 
 /* shared styles */
@@ -39,7 +38,6 @@ body {
 main {
   max-width: 1340px;
   margin: 0 auto;
-  /* border: 2px solid red; */
 }
 main > section {
   margin-top: 130px;
@@ -141,7 +139,6 @@ main > section {
 .fact-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid yellow;
 }
 .fact-card {
   border: 1px solid rgba(255, 144, 14, 1);
